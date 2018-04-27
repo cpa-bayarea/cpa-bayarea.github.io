@@ -58,7 +58,7 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        exclude: /node_modules/
+        include: [path.resolve('src'), path.resolve('node_modules/vue-particles')],
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
