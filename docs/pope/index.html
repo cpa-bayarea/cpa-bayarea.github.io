@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pope - Documentação</title>
+    <link rel="stylesheet" href="./resources/css/materialize.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper blue accent-4">
+            <div class="container">
+                <a href="#" class="brand-logo">Documentação do Portal de Pesquisas</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col s3">
+                <ul class="collection with-header">
+                    <li class="collection-item">
+                        <a onclick="setImage('./Documentos/diagrama-classe.jpg')" href="#!" >Diagrama de Classes</a>
+                    </li>
+                    <li class="collection-item">
+                        <a href="Documentos\documentacao-esboco.docx">Documentação Completa</a>
+                    </li>
+                    <li class="collection-item">
+                        <a href="Documentos\Caso-de-Uso-POPE.jpg">Diagrama de Caso de Uso</a>
+                    </li>
+                    <li class="collection-item">
+                        <a href="Documentos\Diagrama-de-Atividade.pdf">Diagrama de Atividades</a>
+                    </li>
+                    <li class="collection-item">
+                        <a href="https://github.com/cpa-bayarea/pope">Codigo Fonte do Portal</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col s9">
+                <h1>Title</h1>
+                <h4>Description</h4>
+                <img id="showImage" class="responsive-img" src="" alt="image here">
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer blue accent-4">
+        <div class="footer-copyright">
+            <div class="container">
+                © Copyright 2018 - Centro de Práticas Acadêmicas Bay Area - IESB Oeste. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+<script>
+    function setImage(url){
+        const showImage = document.getElementById("showImage");
+        showImage.src = url;
+    }
+</script>
+    <script src="./resources/js/materialize.min.js"></script>
+</body>
+
+</html>
