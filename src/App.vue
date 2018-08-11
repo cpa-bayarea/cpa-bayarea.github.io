@@ -3,9 +3,10 @@
     <div id="app">
       <vue-particles color="#49BEB5" style="position: absolute; left: 0; top: 0; height: 100vh; width: 100vw; z-index: 1;"
                      :particleOpacity="0.7"
-                     :particlesNumber="40"
+                     :particlesNumber="45"
                      shapeType="circle"
                      :particleSize="4"
+                     clickMode="repulse"
       ></vue-particles>
       <img src="./assets/logo.png" width="20%" style="z-index: 2;"/>
       <h2 style="z-index: 2;">
