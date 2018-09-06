@@ -75,7 +75,7 @@ export default {
         },
         {
           title: 'Nosso trabalho',
-          desc: 'Conheça um pouco do nosso trabalho: para todos os projetos de código aberto, concluídos ou em andamento, utilizamos a plataforma Github. <a href="https://github.com/organizations/cpa-bayarea/">Clique Aqui</a>',
+          desc: 'Conheça um pouco do nosso trabalho: para todos os projetos de código aberto, concluídos ou em andamento, utilizamos a plataforma Github. <a href="https://github.com/cpa-bayarea">Clique Aqui</a>',
           icon: 'fab fa-github-square fa-2x',
           clickable: true,
         },
