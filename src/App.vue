@@ -79,6 +79,12 @@ export default {
           icon: 'fab fa-github-square fa-2x',
           clickable: true,
         },
+        {
+          title: 'Siga nos',
+          desc: 'Veja mais um pouco sobre nós nas redes sociais!!!. <a href="https://www.instagram.com/bayareacpa/?hl=pt-br">Clique Aqui</a>',
+          icon: 'fab fa-instagram fa-2x',
+          clickable: true,
+        },
       ],
     }
   },
